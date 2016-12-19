@@ -5,21 +5,22 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <h2>Add New Meal</h2>
-  <form class="form">
-    <input id="input-meal" type="text" placeholder="Enter Meal Name"><br>
-    <input id="input-ing" type="text" placeholder="Enter Ingredient"><br>
-    <input class="chkbx" type="checkbox" name="onion" value="onion">onion<br>
-    <input class="chkbx" type="checkbox" name="garlic" value="garlic">garlic<br>
-    <button type="submit" id="add">Add To List</button>
-  </form>
-  <h4>Ingredient List</h4>
-    <ol id="new-ingredients">
-    </ol>
-  <button type="submit">Save</button>
-  <button type="submit">Add to Cart and Save</button>
-  <!-- <button type="submit">See Grocery List</button> -->
-
+  <div class="container">
+    <h1>Add New Meal</h1>
+    <form class="form">
+      <input id="input-meal" type="text" placeholder="Meal Name"><br>
+      <input id="input-ing" type="text" placeholder="Ingredient">
+      <button type="submit" id="add">Add</button><br>
+      <input class="chkbx" type="checkbox" name="onion" value="onion">onion<br>
+      <input class="chkbx" type="checkbox" name="garlic" value="garlic">garlic<br>
+    </form>
+    <h4>Ingredient List</h4>
+      <ol id="new-ingredients">
+      </ol>
+    <button type="submit">Save</button>
+    <button type="submit">Add to Cart and Save</button>
+    <!-- <button type="submit">See Grocery List</button> -->
+  </div>
 
 
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"
