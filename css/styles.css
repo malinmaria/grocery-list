@@ -1,3 +1,6 @@
+body {
+  font-family: 'Arimo', sans-serif;
+}
 .container {
   margin-left: 43%;
 }
@@ -9,6 +12,8 @@ h4 {
 #add {
   font-size: 20px;
   padding: 9px;
+  border: none;
+  background-color: #42f450;
 }
 
 #input-ing,
