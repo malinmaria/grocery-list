@@ -1,5 +1,6 @@
 body {
   font-family: 'Arimo', sans-serif;
+  margin: 0;
 }
 .container {
   margin-left: 43%;
@@ -32,4 +33,24 @@ form input {
 button {
   margin-top: 20px;
   font-size: 13px;
+}
+
+/* SIDEBAR */
+.s-container {
+  background-color: lightblue;
+  width: 25%;
+  height: 800px;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.sidebar-title {
+  text-align: center;
+}
+
+.planned-list li {
+  word-wrap: break-word;
+  margin: 10px;
+  left: 20;
 }
