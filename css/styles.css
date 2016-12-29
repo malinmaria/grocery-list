@@ -52,5 +52,11 @@ button {
 .planned-list li {
   word-wrap: break-word;
   margin: 10px;
-  left: 20;
+}
+
+.delete {
+  margin: 0px;
+  float: right;
+  /*color: red;*/
+  font-weight: bolder;
 }
