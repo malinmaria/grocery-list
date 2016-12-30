@@ -25,12 +25,13 @@ var main = function(){
   });
 };
 
-// $( "p" ).click(function() {
-//   $( this ).toggleClass( "highlight" );
-// });
-
-$("li").click(function(){
+$('.item').click(function(){
   $(this).toggleClass('cross-out');
 });
+
+$('.panel').click(function(){
+      $(this).next('span').slideToggle();
+      $(this).closest('ul').find('span').slideUp();
+    });
 
 $(document).ready(main);
