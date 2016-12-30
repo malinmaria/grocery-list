@@ -62,7 +62,7 @@ button {
 }
 
 /*LIST*/
-ul {
+.item {
   cursor: pointer;
 }
 
