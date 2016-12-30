@@ -25,6 +25,12 @@ var main = function(){
   });
 };
 
+// $( "p" ).click(function() {
+//   $( this ).toggleClass( "highlight" );
+// });
 
+$("li").click(function(){
+  $(this).toggleClass('cross-out');
+});
 
 $(document).ready(main);

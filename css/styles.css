@@ -60,3 +60,12 @@ button {
   /*color: red;*/
   font-weight: bolder;
 }
+
+/*LIST*/
+ul {
+  cursor: pointer;
+}
+
+.cross-out {
+  text-decoration: line-through;
+}
