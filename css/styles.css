@@ -10,6 +10,15 @@ h4 {
   margin-left: 5%;
 }
 
+/*INDEX (landing page)*/
+.choose,
+.random {
+  color: #fff;
+  background-color: #0fc64f;
+  border-radius: 10%;
+}
+
+/*ADD NEW*/
 #add {
   font-size: 20px;
   padding: 9px;

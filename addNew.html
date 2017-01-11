@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>What's For Dinner?</title>
+  <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Add New Meal</h1>
+    <form class="form">
+      <input id="input-meal" type="text" placeholder="Meal Name"><br>
+      <input id="input-ing" type="text" placeholder="Ingredient">
+      <button type="submit" id="add">+</button><br>
+      <input class="chkbx" type="checkbox" name="onion" value="onion">onion<br>
+      <input class="chkbx" type="checkbox" name="garlic" value="garlic">garlic<br>
+    </form>
+    <h4>Ingredient List</h4>
+      <ol id="new-ingredients">
+      </ol>
+    <button type="submit">Save</button>
+    <button type="submit">Add to Cart and Save</button>
+    <!-- <button type="submit">See Grocery List</button> -->
+  </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
