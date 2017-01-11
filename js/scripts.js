@@ -34,4 +34,8 @@ $('.panel').click(function(){
       $(this).closest('ul').find('span').slideUp();
     });
 
+$('.addToList').click(function(){
+  alert("Ingredients have been added to your shopping list!");
+});
+
 $(document).ready(main);

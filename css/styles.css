@@ -71,13 +71,36 @@ button {
 }
 
 /*MEALS*/
+.panel {
+  margin: 0;
+  margin-left: -10%;
+}
+.content {
+  margin-left: -5%;
+}
 h3 {
   border: 1px solid black;
-  width: 20%;
+  width: 33%;
   text-align: center;
-  padding: 3px;
+  padding: 5px;
 }
 
 span {
   display: none;
+  width: 50%;
+}
+
+.addToList,
+.addToList2 {
+  position: absolute;
+  top: 11.5%;
+  left: 58%;
+  margin: 0;
+  display: inline;
+  float: right;
+}
+
+.addToList2 {
+  top: 16.5%;
+  left: 58%;
 }
